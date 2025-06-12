@@ -2,6 +2,11 @@
 # Changelog
 All notable changes to Mainsail will be documented in this file.
 
+## [new fork]
+### Intention
+
+- Make it compatible with RPi5 by upgrading to bookworm based OS
+
 ## [unreleased]
 ### Features
 
