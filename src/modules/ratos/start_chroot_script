@@ -76,6 +76,7 @@ sudo -u "${BASE_USER}" bash /home/"${BASE_USER}"/ratos-configurator/src/scripts/
 echo "Starting RatOS Configurator"
 pushd "/home/${BASE_USER}/ratos-configurator"
 cp "src/package.json" "."
+sudo -u "${BASE_USER}" npm ls
 sudo -u "${BASE_USER}" npm install
 sudo -u "${BASE_USER}" npm run start &
 # Wait for configurator to start
